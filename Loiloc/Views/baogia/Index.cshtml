@@ -1,0 +1,16 @@
+﻿
+@{
+     Layout = "~/Views/Shared/_LayoutDefault.cshtml";
+}
+<div class="nVar_Product">
+    <nav> @Html.Raw(ViewBag.nUrl)</nav>
+</div>
+<div id="baoGia">
+    <div id="nvarBaoGia">
+        <h1>Bảng báo giá Lõi lọc nước Kangaroo,Karofi,Geyser.... mới nhất năm @DateTime.Now.Year</h1>
+    </div>
+    <div id="listBaoGia">
+       @Html.Raw(ViewBag.resultBaoGia)
+        
+    </div>
+</div>

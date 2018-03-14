@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutDefault.cshtml";
+}
+
+@model Loiloc.Models.tblNew
+<div class="nVar_Product">
+    <nav> @Html.Raw(ViewBag.nUrl)</nav>
+</div>
+
+
+<div id="News">
+
+    <div id="LeftNews">
+        <div class="Tear_Cate">
+            <div class="nVar_Tear_Cate" style="background:#ff3c00">
+                <span>Chuyên mục chính</span>
+            </div>
+            <div class="Content_Tear_Cate">
+                <ul>
+                    <li><a href="/Gioi-thieu" title="Giới thiệu" rel="nofollow"><span style="font-weight:normal">❖</span>  Về chúng tôi</a></li>
+                    <li><a href="/Tin-tuc" title="tin tức" rel="nofollow"><span style="font-weight:normal">❖</span>  Tin tức</a></li>
+                    <li><a href="/Tu-van-mua-loi-loc" title="Tư vấn thay lõi lọc" rel="nofollow"><span style="font-weight:normal">❖</span> Tư vấn thay lõi lọc nước</a></li>
+
+                    <li><a href="/Tuyen-dung" title="tuyển dụng" rel="nofollow"><span style="font-weight:normal">❖</span>  Tuyển dụng</a></li>
+                    <li><a href="/Lien-he" title="liên hệ" rel="nofollow"><span style="font-weight:normal">❖</span>  Liên hệ</a></li>
+                    <li><a href="/He-thong-phan-phoi" title="hệ thống phân phối" rel="nofollow"><span style="font-weight:normal">❖</span>  Hệ thống phân phối</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div id="RightNews">
+        <div class="nVar_NewsDetail">
+            <h1>@Model.Name</h1>
+            <div class="Clear"></div>
+            <div class="toolbar"><span class="Cate"><span></span>@ViewBag.NameMenu</span><span class="Cata"><span></span>Thời gian gửi: @Model.DateCreate</span><span class="Account"><span></span>@ViewBag.Username</span> </div>
+        </div>
+        <div class="NewsDetail">
+            <div class="Des_Detail">
+                @Model.Description
+
+            </div>
+            @Html.Raw(ViewBag.chuoinew)
+            <div class="Content_Detail">
+                @Html.Raw(Model.Content)
+            </div>
+             
+        </div>
+         
+         
+    </div>
+</div>
+
+ 

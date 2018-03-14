@@ -1,0 +1,47 @@
+﻿@charset "utf-8";#Baogia{width:100%;height:auto;margin:10px auto;box-shadow:0px 0px 10px 0px #c2c2c2;padding:10px 0px}
+#Head_Top{width:98%;height:auto;margin:5px auto }
+#Head_Top #Left_Head{width:40%;height:90px;margin:0px;float:left;}
+#Head_Top #Left_Head img{max-height:90px}
+#Head_Top #Right_Head{width:60%;height:auto;float:left;margin:0px}
+#Head_Top #Right_Head .hd1{font-size:20px;color:#656565;text-transform:uppercase;margin:5px;font-family:CondensedBold;text-align:right;display:block;font-weight:bold}
+#Head_Top #Right_Head .hd2{font-size:12px;color:#4f4f4f;margin:2px;display:block;text-align:right}
+#Head_Top #Right_Head .hd3{font-size:12px;color:#4f4f4f;margin:2px;display:block;text-align:right}
+#Head_Top #Right_Head .hd4{font-size:12px;color:#4f4f4f;margin:2px;display:block;text-align:right}
+#Content_Baogia{width:98%;height:auto;margin:0px auto}
+#Content_Baogia h1{font-size:23px;color:#000;text-transform:uppercase;text-align:center;margin:25px 5px 5px 5px}
+.line_bg{width:98%;height:1px;border-bottom:1px solid #d7d7d7;margin:10px auto}
+#Content_Baogia .date1{font-size:12px;text-align:right;display:block;margin:5px;color:#414141;font-style:italic}
+#Content_Baogia .kg{font-size:12px;display:block;margin:10px 5px;color:#414141;text-align:center;font-weight:bold}
+#Table{width:100%;height:auto;float:left;margin:10px 0px;border:1px solid #dcdcdc;border-right:none;border-bottom:none}
+#Table .Ord{width:5%;text-align:center}
+#Table .Name{width:40%;;text-align:center}
+#Table .Code{width:10%;;text-align:center}
+#Table .Price{width:14%;;text-align:center}
+#Table .Quality{width:4%;text-align:center}
+#Table .SumPrice{width:14%;text-align:center}
+#Table .Image{width:12%;text-align:center}
+#Table .Head_tb{height:25px;text-transform:uppercase;font-weight:bold}
+#Table td{text-indent:5px}
+#Table tr{line-height:normal !important}
+#Table .Names a{font-weight:bold;margin:3px 5px;color:#424242}
+#Table .Names .n2{font-weight:normal;margin:3px 5px;display:block;font-style:italic}
+#Table .Codes{font-weight:bold;text-align:center}
+#Table .Codes a{margin:3px 5px;color:#424242}
+#Table .Prices{text-align:center}
+#Table .Ords{text-align:center}
+#Table .Qualitys{text-align:center}
+#Table .SumPrices{text-align:center}
+#Table .Images img{width:90%;margin:5px auto;display:block}
+.ghichu_bg{font-weight:bold;text-decoration:underline;margin:5px 5px 20px 5px;display:block;font-size:14px}
+.ghichu1{font-size:12px;font-style:italic;color:#525252;margin:5px 5px 5px 30px;display:block}
+.Printer{text-align:center;display:block;height:30px;color:#515151;line-height:30px;margin:10px 0px}
+.Printer span.icon{width:30px;height:30px;background:url(../iCon/iCon_Printer.png) no-repeat;display:inline-block}
+.Printer span{line-height:30px;display:inline-block}
+
+#baoGia{width:100%; height:auto; float:left; margin:10px 0px; float:left}
+#baoGia #nvarBaoGia{width:100%; height:auto; float:left; margin:5px 0px}
+#baoGia #nvarBaoGia h1{ font-size:23px; color:#394d69; font-weight:normal; text-transform:uppercase; font-family:CondensedBold; margin:0px 0px; text-align:center}
+#listBaoGia{width:100%; height:auto; float:left; margin:10px 0px; border-top:1px solid #e5e5e5; padding-top:10x}
+#listBaoGia .tear_Bg{width:19%; height:270px; float:left; margin:5px 0.5%; border:1px solid #e5e5e5}
+#listBaoGia .tear_Bg img{width:100%; height:200px; float:left; margin:0px 0px 15px 0px; display:block}
+#listBaoGia .tear_Bg a{font-size:13px; text-align:center; display:block; color:#3e3e3e; text-transform:uppercase; margin:5px; font-weight:bold}

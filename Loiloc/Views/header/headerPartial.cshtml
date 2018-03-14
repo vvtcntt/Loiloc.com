@@ -1,0 +1,86 @@
+﻿@model Loiloc.Models.tblConfig
+<div id="top">
+    @Html.Raw(ViewBag.images)
+</div>
+<div id="banner">
+    <div id="logo">
+        <a href="/" title="Loiloc.com"><img src="@Model.Logo" alt="Lõi lọc nước" /></a>
+    </div>
+    <div class="noteSupport">
+        <p class="p1">Chỉ bán hàng <span> chính hãng</span></p>
+        <p class="p2">Vui lòng <span> không gọi</span> nếu mua hàng loại 2</p>
+    </div>
+    <div id="support">
+        <div class="hotline">
+            <span class="sp1">
+                HỖ TRỢ 24/7/365
+            </span>
+            <span class="sp2">
+                @Model.HotlineIN
+            </span>
+        </div>
+        <div class="hotline_one">
+            <span class="sp1">
+                Yêu cầu chúng tôi
+            </span>
+            <span class="sp2">
+                Gọi cho bạn
+            </span>
+        </div>
+        <div class="order">
+                        @if (Session["soluong"] != "" && Session["soluong"] != null)
+            {
+                            <a href="/gio-hang" title="giỏ hàng" rel="nofollow">
+                                <span>@Session["soluong"].ToString()</span></a>
+                                }
+                                else
+                                {
+                                <span>0</span>
+                                }
+
+</div>
+    </div>
+</div>
+<div id="menu">
+    <div id="contentMenu">
+        <ul class="ul1">
+            <li class="li1"> <a href="/" title="Trang chủ">Trang chủ</a></li>
+            <li class="li1 lic">
+                <a href="" title="">
+                    Sản phẩm  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </a>
+                <div class="container">
+                    <div class="infoContainer">
+                        <span class="name">Chọn lõi lọc từ Loiloc.com !</span>
+                        <p>Loiloc.com chuyên cung cấp các sản phẩm lõi lọc nước, máy lọc nước, linh kiện loc nước chính hãng từ các thương hiệu lọc nước uy tín tại Việt Nam. Chúng tôi cam kết sản phẩm chính hãng với mức giá ưu đãi nhất dành cho khách hàng</p>
+                    </div>
+                    <div class="listMenu">
+                        @Html.Raw(ViewBag.result)
+                        
+                        
+                    </div>
+                </div>
+            </li>
+            <li class="li1 lip"> <a href="" title="">Dịch vụ  <i class="fa fa-caret-down" aria-hidden="true"></i> </a>
+                <ul class="ul_tr">
+                    @Html.Raw(ViewBag.resultService)
+                </ul>
+            </li>
+            <li class="li1"> <a href="/bao-gia" title="Báo giá">Báo giá  <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul class="ul_tr"> @Html.Raw(ViewBag.resultBaoGia) </ul>
+</li>
+            <li class="li1"> <a href="/Khuyen-mai" title="Khuyến mại">Khuyến mại <span class="km">Hot</span></a></li>
+            <li class="li1"> <a href="/tin-tuc" title="Tin tức" >Tin tức </a></li>
+            <li class="li1"> <a href="/Dai-ly-loi-loc-nuoc" title="Đại lý lõi lọc nước">Đại lý   </a></li>
+            <li class="li1 td"> <a href="/Tuyen-dung" title="Tuyển dụng">Tuyển dụng </a></li>
+            <li class="li1 lh"> <a href="/Lien-he" title="Liên hệ">Liên hệ </a></li>
+        </ul>
+    </div>
+</div>
+<div id="menuMobile">
+    <a href="" title="">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+        Danh mục sản phẩm
+    </a>
+</div>
+ 

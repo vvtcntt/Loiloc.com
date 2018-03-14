@@ -1,0 +1,33 @@
+﻿
+@{
+     Layout = "~/Views/Shared/_LayoutDefault.cshtml";
+}
+@Html.Raw(ViewBag.h1) 
+<div id="boxSearch">
+    <div id="topBoxSearch">
+        <h2>Siêu thị chuyên lõi lọc nước</h2>
+        <span>Là hệ thống phân phối lõi lọc nước đầu tiên và lớn nhất Việt Nam</span>
+    </div>
+    <div id="contentSearch"> <script>
+  (function() {
+    var cx = '017169134073266625418:9kvr8jz8wwm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search> 
+         
+     </div>
+</div>
+@{ Html.RenderAction("transportPartial", "Default");}
+<div class="Clear"></div>
+<div id="content">
+   
+     @{ Html.RenderAction("productHomesPartial","product");}
+</div>
+<div class="Clear"></div>
+

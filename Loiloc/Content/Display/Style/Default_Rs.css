@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 768px) 
+{ 
+	#banner{width:100%}
+	#logo{width:30%}
+	.noteSupport{display:none}
+	#support{width:60%; float:right}
+	#contentMenu{width:100%}
+	#contentMenu .ul1 .li1 a{ font-size:14px;     padding: 12px 14px;
+	
+}.tear1 .boxPrice .orders a{font-size:12px}
+#main{width:100%}
+#contentMenu .ul1 .td{display:none}
+#contentMenu .ul1 .lh{display:none}
+#boxSearch{width:100%; margin:0px}
+#topBoxSearch span{font-size:17px}
+#topBoxSearch h2{font-size:25px; margin-top:15px}
+#contentSearch input{width:87%}
+#Transport h4{margin:15px 5px}
+#Transport .dh{display:none}
+#Transport .Tear_Tran{width:50%}
+#Transport .gh:after{ background:none}
+.tear1{width:32.1%}
+#tuVan #mainTuVan{width:100%}
+#mainRegister{width:100%}
+#mainFooter{width:100%}
+#infoFooter{width:100%}
+#mainFooter .name{text-align:center}
+#supportFooter{width:48%; margin:15px 1%}
+#payFooter{width:48%; margin:15px 1%}
+#listInfo #contentListInfo{width:100%}
+#listInfo #contentListInfo .tearInfo{width:48%; margin:5px 1%}
+#contentFooterbottom{width:100%}
+#logoFooter{width:35%}
+#centerFooter{width:65%}
+#rightFooter{width:100%; text-align:center}
+#rightFooter img{float:none}
+#Support_Footer{display:none}
+#footerbottom{padding-bottom:5px}
+ }
+ @media screen and (max-width: 480px) 
+{ 
+	#logo{width:100%; text-align:center}
+	#logo img{float:none}
+	#support{width:100%}
+	.hotline{  width:140px; clear:both; margin:0px 5px; display:block }
+	.hotline_one{ margin:0px 5px; display:block }
+	.order{display:none}
+	#menu{display:none}
+	#topBoxSearch{background:none}
+#topBoxSearch h2{font-size:18px }
+#menuMobile{display:block}
+#contentSearch input{width:65%; font-size:13px}
+#Transport h4{margin:5px}
+#Transport .tt{width:100%; margin:0px 0px 5px 0px;    background: url(../ICon/people-pay.png) no-repeat 10px center scroll #f8f8f8;}
+#Transport .Tear_Tran:after{background:none}
+#Transport .Tear_Tran .tr1{margin-left:28%}
+#Transport .Tear_Tran .tr2{margin-left:28%; font-size:13px}
+#Transport .gh {
+    background: url(../Icon/sua.jpg) no-repeat 10px center scroll #f8f8f8;width:100%;margin:0px 0px 5px 0px; 
+}
+#Transport .Tear_Tran .tr1{margin-left:28%}
+#Transport .Tear_Tran .tr2{margin-left:28%; font-size:13px}
+.product .nvarProduct .leftNvarProduct{width:100%}
+.product .nvarProduct .rightNvarProduct{display:none}
+.tear1{width:48%; height:275px; margin:2px}
+.tear1 .info{display:none}
+.tear1 .img{height:120px}
+ 
+.tear1 .boxPrice .price{width:100%; text-align:center}
+.tear1 .boxPrice .orders{width:100%; text-align:center;line-height:20px; display:none}
+.tear1:hover .compare{display:none}
+.tear1 .box .boxLogo{display:none}
+#mainRegister #boxRegister{width:96%; margin:auto 2%}
+#mainRegister #boxRegister input{width:66%; font-size:12px !important}
+#supportFooter{display:none}
+#payFooter{display:none}
+.social ul li:first-child{width:100%; margin-bottom:6px}
+#listInfo{display:none}
+#logoFooter{width:100%; text-align:center}
+#logoFooter img{float:none}
+#centerFooter{width:100%; text-align:center}
+}
